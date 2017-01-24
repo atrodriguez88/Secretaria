@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TesisDataSet13" targetNamespace="http://tempuri.org/TesisDataSet13.xsd" xmlns:mstns="http://tempuri.org/TesisDataSet13.xsd" xmlns="http://tempuri.org/TesisDataSet13.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TesisConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TesisConnectionString (Settings)" PropertyReference="ApplicationSettings.DXWindowsApplication1.Properties.Settings.GlobalReference.Default.TesisConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Consulta23TableAdapter" GeneratorDataComponentClassName="Consulta23TableAdapter" Name="Consulta23" UserDataComponentName="Consulta23TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TesisConnectionString (Settings)" DbObjectName="Consulta23" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [PlnDE.nombre], Carrera, Año, Semestre, [Asignatura.nombre], horas, Modalidad, idPlan, Asig FROM Consulta23</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PlnDE.nombre" DataSetColumn="PlnDE_nombre" />
+              <Mapping SourceColumn="Carrera" DataSetColumn="Carrera" />
+              <Mapping SourceColumn="Año" DataSetColumn="Año" />
+              <Mapping SourceColumn="Semestre" DataSetColumn="Semestre" />
+              <Mapping SourceColumn="Asignatura.nombre" DataSetColumn="Asignatura_nombre" />
+              <Mapping SourceColumn="horas" DataSetColumn="horas" />
+              <Mapping SourceColumn="Modalidad" DataSetColumn="Modalidad" />
+              <Mapping SourceColumn="idPlan" DataSetColumn="idPlan" />
+              <Mapping SourceColumn="Asig" DataSetColumn="Asig" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TesisDataSet13" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="TesisDataSet13" msprop:Generator_UserDSName="TesisDataSet13">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Consulta23" msprop:Generator_TableClassName="Consulta23DataTable" msprop:Generator_TableVarName="tableConsulta23" msprop:Generator_TablePropName="Consulta23" msprop:Generator_RowDeletingName="Consulta23RowDeleting" msprop:Generator_RowChangingName="Consulta23RowChanging" msprop:Generator_RowEvHandlerName="Consulta23RowChangeEventHandler" msprop:Generator_RowDeletedName="Consulta23RowDeleted" msprop:Generator_UserTableName="Consulta23" msprop:Generator_RowChangedName="Consulta23RowChanged" msprop:Generator_RowEvArgName="Consulta23RowChangeEvent" msprop:Generator_RowClassName="Consulta23Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PlnDE_nombre" msprop:Generator_ColumnVarNameInTable="columnPlnDE_nombre" msprop:Generator_ColumnPropNameInRow="PlnDE_nombre" msprop:Generator_ColumnPropNameInTable="PlnDE_nombreColumn" msprop:Generator_UserColumnName="PlnDE_nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Carrera" msprop:Generator_ColumnVarNameInTable="columnCarrera" msprop:Generator_ColumnPropNameInRow="Carrera" msprop:Generator_ColumnPropNameInTable="CarreraColumn" msprop:Generator_UserColumnName="Carrera" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Año" msprop:Generator_ColumnVarNameInTable="columnAño" msprop:Generator_ColumnPropNameInRow="Año" msprop:Generator_ColumnPropNameInTable="AñoColumn" msprop:Generator_UserColumnName="Año" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Semestre" msprop:Generator_ColumnVarNameInTable="columnSemestre" msprop:Generator_ColumnPropNameInRow="Semestre" msprop:Generator_ColumnPropNameInTable="SemestreColumn" msprop:Generator_UserColumnName="Semestre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Asignatura_nombre" msprop:Generator_ColumnVarNameInTable="columnAsignatura_nombre" msprop:Generator_ColumnPropNameInRow="Asignatura_nombre" msprop:Generator_ColumnPropNameInTable="Asignatura_nombreColumn" msprop:Generator_UserColumnName="Asignatura_nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="horas" msprop:Generator_ColumnVarNameInTable="columnhoras" msprop:Generator_ColumnPropNameInRow="horas" msprop:Generator_ColumnPropNameInTable="horasColumn" msprop:Generator_UserColumnName="horas" type="xs:int" minOccurs="0" />
+              <xs:element name="Modalidad" msprop:Generator_ColumnVarNameInTable="columnModalidad" msprop:Generator_ColumnPropNameInRow="Modalidad" msprop:Generator_ColumnPropNameInTable="ModalidadColumn" msprop:Generator_UserColumnName="Modalidad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="idPlan" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnidPlan" msprop:Generator_ColumnPropNameInRow="idPlan" msprop:Generator_ColumnPropNameInTable="idPlanColumn" msprop:Generator_UserColumnName="idPlan" type="xs:int" minOccurs="0" />
+              <xs:element name="Asig" msprop:Generator_ColumnVarNameInTable="columnAsig" msprop:Generator_ColumnPropNameInRow="Asig" msprop:Generator_ColumnPropNameInTable="AsigColumn" msprop:Generator_UserColumnName="Asig" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

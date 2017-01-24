@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1BB93677-8BF7-4053-9D4D-2D381248C750}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DXWindowsApplication1</RootNamespace>
+    <AssemblyName>DXWindowsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v12.2, Version=12.2.10.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v12.2, Version=12.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v12.2.Core, Version=12.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.2, Version=12.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v12.2, Version=12.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.2, Version=12.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v12.2, Version=12.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v12.2, Version=12.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v12.2, Version=12.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\buscarExpediente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\buscarExpediente.Designer.cs">
+      <DependentUpon>buscarExpediente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\editAsignatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\editAsignatura.Designer.cs">
+      <DependentUpon>editAsignatura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\buscarAsignatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\buscarAsignatura.Designer.cs">
+      <DependentUpon>buscarAsignatura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\asignaturaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\asignaturaForm.Designer.cs">
+      <DependentUpon>asignaturaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\buscarCarrera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\buscarCarrera.Designer.cs">
+      <DependentUpon>buscarCarrera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\editCarrera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\editCarrera.Designer.cs">
+      <DependentUpon>editCarrera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\editEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\editEstudiante.Designer.cs">
+      <DependentUpon>editEstudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\editFacultad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\editFacultad.Designer.cs">
+      <DependentUpon>editFacultad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\buscarFacultad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\buscarFacultad.Designer.cs">
+      <DependentUpon>buscarFacultad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\Asignatura.cs" />
+    <Compile Include="Forms\carreraForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\carreraForm.Designer.cs">
+      <DependentUpon>carreraForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\facultadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\facultadForm.Designer.cs">
+      <DependentUpon>facultadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\buscar_estudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\buscar_estudiante.Designer.cs">
+      <DependentUpon>buscar_estudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\cambiarContrasena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\cambiarContrasena.Designer.cs">
+      <DependentUpon>cambiarContrasena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\Carrera.cs" />
+    <Compile Include="Clases\Conexion.cs" />
+    <Compile Include="Clases\Estudiante.cs" />
+    <Compile Include="Clases\Est_Asig.cs" />
+    <Compile Include="Clases\Expediente.cs" />
+    <Compile Include="Clases\Facultad.cs" />
+    <Compile Include="Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\introducirNotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\introducirNotas.Designer.cs">
+      <DependentUpon>introducirNotas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\Modalidad.cs" />
+    <Compile Include="Forms\nuevo_estudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\nuevo_estudiante.Designer.cs">
+      <DependentUpon>nuevo_estudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\PlnDE.cs" />
+    <Compile Include="Clases\Program.cs" />
+    <Compile Include="Forms\planForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\planForm.Designer.cs">
+      <DependentUpon>planForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\infoCarrera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\infoCarrera.Designer.cs">
+      <DependentUpon>infoCarrera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\infoEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\infoEstudiante.Designer.cs">
+      <DependentUpon>infoEstudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\infoAsignatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\infoAsignatura.Designer.cs">
+      <DependentUpon>infoAsignatura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Clases\registrar.cs" />
+    <Compile Include="TesisDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TesisDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TesisDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TesisDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tesisDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tesisDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tesisDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tesisDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TesisDataSet2.cs">
+      <DependentUpon>TesisDataSet2.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TesisDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TesisDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TesisDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TesisDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\xfEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\xfEstudiante.Designer.cs">
+      <DependentUpon>xfEstudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TesisDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TesisDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TesisDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TesisDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TesisDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TesisDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TesisDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TesisDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TesisDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TesisDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TesisDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TesisDataSet9.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\buscarExpediente.resx">
+      <DependentUpon>buscarExpediente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\editAsignatura.resx">
+      <DependentUpon>editAsignatura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\buscarAsignatura.resx">
+      <DependentUpon>buscarAsignatura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\asignaturaForm.resx">
+      <DependentUpon>asignaturaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\buscarCarrera.resx">
+      <DependentUpon>buscarCarrera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\editCarrera.resx">
+      <DependentUpon>editCarrera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\editEstudiante.resx">
+      <DependentUpon>editEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\editFacultad.resx">
+      <DependentUpon>editFacultad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\buscarFacultad.resx">
+      <DependentUpon>buscarFacultad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\carreraForm.resx">
+      <DependentUpon>carreraForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\facultadForm.resx">
+      <DependentUpon>facultadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\buscar_estudiante.resx">
+      <DependentUpon>buscar_estudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\cambiarContrasena.resx">
+      <DependentUpon>cambiarContrasena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\introducirNotas.resx">
+      <DependentUpon>introducirNotas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\nuevo_estudiante.resx">
+      <DependentUpon>nuevo_estudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\xfEstudiante.resx">
+      <DependentUpon>xfEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\planForm.resx">
+      <DependentUpon>planForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\infoCarrera.resx">
+      <DependentUpon>infoCarrera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\infoEstudiante.resx">
+      <DependentUpon>infoEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\infoAsignatura.resx">
+      <DependentUpon>infoAsignatura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TesisDataSet.xsc">
+      <DependentUpon>TesisDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TesisDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TesisDataSet.xss">
+      <DependentUpon>TesisDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet1.xsc">
+      <DependentUpon>TesisDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TesisDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TesisDataSet1.xss">
+      <DependentUpon>TesisDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="tesisDataSet10.xsc">
+      <DependentUpon>tesisDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="tesisDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tesisDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tesisDataSet10.xss">
+      <DependentUpon>tesisDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="tesisDataSet11.xsc">
+      <DependentUpon>tesisDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="tesisDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tesisDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tesisDataSet11.xss">
+      <DependentUpon>tesisDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet2.xsc">
+      <DependentUpon>TesisDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TesisDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TesisDataSet2.xss">
+      <DependentUpon>TesisDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet3.xsc">
+      <DependentUpon>TesisDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TesisDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TesisDataSet3.xss">
+      <DependentUpon>TesisDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet4.xsc">
+      <DependentUpon>TesisDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TesisDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TesisDataSet4.xss">
+      <DependentUpon>TesisDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet5.xsc">
+      <DependentUpon>TesisDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TesisDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TesisDataSet5.xss">
+      <DependentUpon>TesisDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet6.xsc">
+      <DependentUpon>TesisDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TesisDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TesisDataSet6.xss">
+      <DependentUpon>TesisDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet7.xsc">
+      <DependentUpon>TesisDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TesisDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TesisDataSet7.xss">
+      <DependentUpon>TesisDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet8.xsc">
+      <DependentUpon>TesisDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TesisDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TesisDataSet8.xss">
+      <DependentUpon>TesisDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet9.xsc">
+      <DependentUpon>TesisDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="TesisDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TesisDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TesisDataSet9.xss">
+      <DependentUpon>TesisDataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tesis.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

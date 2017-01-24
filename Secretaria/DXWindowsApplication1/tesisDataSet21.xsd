@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TesisDataSet21" targetNamespace="http://tempuri.org/TesisDataSet21.xsd" xmlns:mstns="http://tempuri.org/TesisDataSet21.xsd" xmlns="http://tempuri.org/TesisDataSet21.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TesisConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TesisConnectionString (Settings)" PropertyReference="ApplicationSettings.DXWindowsApplication1.Properties.Settings.GlobalReference.Default.TesisConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Consulta21TableAdapter" GeneratorDataComponentClassName="Consulta21TableAdapter" Name="Consulta21" UserDataComponentName="Consulta21TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TesisConnectionString (Settings)" DbObjectName="Consulta21" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT cursos, asignatura, nota, IdEstudiante FROM Consulta21</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cursos" DataSetColumn="cursos" />
+              <Mapping SourceColumn="asignatura" DataSetColumn="asignatura" />
+              <Mapping SourceColumn="nota" DataSetColumn="nota" />
+              <Mapping SourceColumn="IdEstudiante" DataSetColumn="IdEstudiante" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TesisDataSet21" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="TesisDataSet21" msprop:Generator_UserDSName="TesisDataSet21">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Consulta21" msprop:Generator_TableClassName="Consulta21DataTable" msprop:Generator_TableVarName="tableConsulta21" msprop:Generator_TablePropName="Consulta21" msprop:Generator_RowDeletingName="Consulta21RowDeleting" msprop:Generator_RowChangingName="Consulta21RowChanging" msprop:Generator_RowEvHandlerName="Consulta21RowChangeEventHandler" msprop:Generator_RowDeletedName="Consulta21RowDeleted" msprop:Generator_UserTableName="Consulta21" msprop:Generator_RowChangedName="Consulta21RowChanged" msprop:Generator_RowEvArgName="Consulta21RowChangeEvent" msprop:Generator_RowClassName="Consulta21Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cursos" msprop:Generator_ColumnVarNameInTable="columncursos" msprop:Generator_ColumnPropNameInRow="cursos" msprop:Generator_ColumnPropNameInTable="cursosColumn" msprop:Generator_UserColumnName="cursos" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="asignatura" msprop:Generator_ColumnVarNameInTable="columnasignatura" msprop:Generator_ColumnPropNameInRow="asignatura" msprop:Generator_ColumnPropNameInTable="asignaturaColumn" msprop:Generator_UserColumnName="asignatura" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nota" msprop:Generator_ColumnVarNameInTable="columnnota" msprop:Generator_ColumnPropNameInRow="nota" msprop:Generator_ColumnPropNameInTable="notaColumn" msprop:Generator_UserColumnName="nota" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdEstudiante" msprop:Generator_ColumnVarNameInTable="columnIdEstudiante" msprop:Generator_ColumnPropNameInRow="IdEstudiante" msprop:Generator_ColumnPropNameInTable="IdEstudianteColumn" msprop:Generator_UserColumnName="IdEstudiante" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

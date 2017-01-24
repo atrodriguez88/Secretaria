@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TesisDataSet12" targetNamespace="http://tempuri.org/TesisDataSet12.xsd" xmlns:mstns="http://tempuri.org/TesisDataSet12.xsd" xmlns="http://tempuri.org/TesisDataSet12.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TesisConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TesisConnectionString (Settings)" PropertyReference="ApplicationSettings.DXWindowsApplication1.Properties.Settings.GlobalReference.Default.TesisConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Consulta4TableAdapter" GeneratorDataComponentClassName="Consulta4TableAdapter" Name="Consulta4" UserDataComponentName="Consulta4TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TesisConnectionString (Settings)" DbObjectName="Consulta4" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Nombre, Carrera FROM Consulta4</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Nombre" DataSetColumn="Nombre" />
+              <Mapping SourceColumn="Carrera" DataSetColumn="Carrera" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TesisDataSet12" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="TesisDataSet12" msprop:Generator_UserDSName="TesisDataSet12">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Consulta4" msprop:Generator_TableClassName="Consulta4DataTable" msprop:Generator_TableVarName="tableConsulta4" msprop:Generator_TablePropName="Consulta4" msprop:Generator_RowDeletingName="Consulta4RowDeleting" msprop:Generator_RowChangingName="Consulta4RowChanging" msprop:Generator_RowEvHandlerName="Consulta4RowChangeEventHandler" msprop:Generator_RowDeletedName="Consulta4RowDeleted" msprop:Generator_UserTableName="Consulta4" msprop:Generator_RowChangedName="Consulta4RowChanged" msprop:Generator_RowEvArgName="Consulta4RowChangeEvent" msprop:Generator_RowClassName="Consulta4Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nombre" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_UserColumnName="Nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Carrera" msprop:Generator_ColumnVarNameInTable="columnCarrera" msprop:Generator_ColumnPropNameInRow="Carrera" msprop:Generator_ColumnPropNameInTable="CarreraColumn" msprop:Generator_UserColumnName="Carrera" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

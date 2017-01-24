@@ -1,0 +1,136 @@
+c:\users\migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\bin\Debug\DXWindowsApplication1.exe
+c:\users\migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\bin\Debug\DXWindowsApplication1.pdb
+c:\users\migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.csprojResolveAssemblyReference.cache
+c:\users\migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.Properties.Resources.resources
+c:\users\migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.csproj.GenerateResource.Cache
+c:\users\migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.exe.licenses
+c:\users\migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.exe
+c:\users\migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.pdb
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.login.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.cambiarContrasena.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.nuevo_estudiante.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscar_estudiante.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.facultadForm.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.carreraForm.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.exe
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.pdb
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\bin\Debug\DXWindowsApplication1.exe.config
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\bin\Debug\DXWindowsApplication1.exe
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\bin\Debug\DXWindowsApplication1.pdb
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.carreraForm.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.facultadForm.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscar_estudiante.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.cambiarContrasena.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.Form1.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.login.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.nuevo_estudiante.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.Properties.Resources.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.csproj.GenerateResource.Cache
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.exe.licenses
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.introducirNotas.resources
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\bin\Debug\DXWindowsApplication1.exe.config
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.introducirNotas.resources
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarFacultad.resources
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.xfEstudiante.resources
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editFacultad.resources
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editEstudiante.resources
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarCarrera.resources
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editCarrera.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.planForm.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.asignaturaForm.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarAsignatura.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editAsignatura.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarExpediente.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarExpediente.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editAsignatura.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarAsignatura.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.asignaturaForm.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarCarrera.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editCarrera.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editEstudiante.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editFacultad.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarFacultad.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.xfEstudiante.resources
+C:\Users\Migue\Desktop\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.planForm.resources
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.Principal.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.infoCarrera.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.infoEstudiante.resources
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.infoAsignatura.resources
+G:\TESIS\Aplicacion\DXWindowsApplication1\DXWindowsApplication1\bin\Debug\DXWindowsApplication1.exe.config
+G:\TESIS\Aplicacion\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.exe
+G:\TESIS\Aplicacion\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.pdb
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarPlan.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.escojaPlan1.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.escojaPlan2.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\bin\Debug\DXWindowsApplication1.exe.config
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.exe
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.pdb
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\bin\Debug\DXWindowsApplication1.exe
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\bin\Debug\DXWindowsApplication1.pdb
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.csprojResolveAssemblyReference.cache
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.escojaPlan2.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.escojaPlan1.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarPlan.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarExpediente.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editAsignatura.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarAsignatura.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.asignaturaForm.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarCarrera.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editCarrera.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editEstudiante.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editFacultad.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarFacultad.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.carreraForm.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.facultadForm.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscar_estudiante.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.cambiarContrasena.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.Principal.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.introducirNotas.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.login.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.nuevo_estudiante.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.xfEstudiante.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.planForm.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.infoCarrera.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.infoEstudiante.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.infoAsignatura.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.Properties.Resources.resources
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.csproj.GenerateResource.Cache
+G:\TESIS\Aplicacion\Ultima Actualizacion(22-03-2016)\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.exe.licenses
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.planEstudio.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.planEstudiante.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.escojaPlan3.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.escojaPlan4.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.escojaPlan5.resources
+C:\Users\Migue\documents\visual studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.escojaPlan6.resources
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.planaPartirdeOtro.resources
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.pendientedePlan.resources
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.planEstudio2.resources
+C:\Users\Migue\Documents\Visual Studio 2012\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.nuevoPlanNombre.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\bin\Debug\DXWindowsApplication1.exe.config
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.exe
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.pdb
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.csprojResolveAssemblyReference.cache
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarExpediente.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editAsignatura.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarAsignatura.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.asignaturaForm.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarCarrera.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editCarrera.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editEstudiante.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.editFacultad.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscarFacultad.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.carreraForm.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.facultadForm.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.buscar_estudiante.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.cambiarContrasena.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.introducirNotas.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.login.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.nuevo_estudiante.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.xfEstudiante.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.planForm.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.infoCarrera.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.infoEstudiante.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.infoAsignatura.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.Properties.Resources.resources
+F:\Ariel\Proyectos\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.csproj.GenerateResource.Cache

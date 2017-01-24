@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TesisDataSet11" targetNamespace="http://tempuri.org/TesisDataSet11.xsd" xmlns:mstns="http://tempuri.org/TesisDataSet11.xsd" xmlns="http://tempuri.org/TesisDataSet11.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TesisConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TesisConnectionString (Settings)" PropertyReference="ApplicationSettings.DXWindowsApplication1.Properties.Settings.GlobalReference.Default.TesisConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Consulta3TableAdapter" GeneratorDataComponentClassName="Consulta3TableAdapter" Name="Consulta3" UserDataComponentName="Consulta3TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TesisConnectionString (Settings)" DbObjectName="Consulta3" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [PlnDE.nombre], [Asignatura.nombre], Carrera, Año, Semestre, Modalidad, horas FROM Consulta3</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PlnDE.nombre" DataSetColumn="PlnDE_nombre" />
+              <Mapping SourceColumn="Asignatura.nombre" DataSetColumn="Asignatura_nombre" />
+              <Mapping SourceColumn="Carrera" DataSetColumn="Carrera" />
+              <Mapping SourceColumn="Año" DataSetColumn="Año" />
+              <Mapping SourceColumn="Semestre" DataSetColumn="Semestre" />
+              <Mapping SourceColumn="Modalidad" DataSetColumn="Modalidad" />
+              <Mapping SourceColumn="horas" DataSetColumn="horas" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TesisDataSet11" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="TesisDataSet11" msprop:Generator_UserDSName="TesisDataSet11">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Consulta3" msprop:Generator_TableClassName="Consulta3DataTable" msprop:Generator_TableVarName="tableConsulta3" msprop:Generator_TablePropName="Consulta3" msprop:Generator_RowDeletingName="Consulta3RowDeleting" msprop:Generator_RowChangingName="Consulta3RowChanging" msprop:Generator_RowEvHandlerName="Consulta3RowChangeEventHandler" msprop:Generator_RowDeletedName="Consulta3RowDeleted" msprop:Generator_UserTableName="Consulta3" msprop:Generator_RowChangedName="Consulta3RowChanged" msprop:Generator_RowEvArgName="Consulta3RowChangeEvent" msprop:Generator_RowClassName="Consulta3Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PlnDE_nombre" msprop:Generator_ColumnVarNameInTable="columnPlnDE_nombre" msprop:Generator_ColumnPropNameInRow="PlnDE_nombre" msprop:Generator_ColumnPropNameInTable="PlnDE_nombreColumn" msprop:Generator_UserColumnName="PlnDE_nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Asignatura_nombre" msprop:Generator_ColumnVarNameInTable="columnAsignatura_nombre" msprop:Generator_ColumnPropNameInRow="Asignatura_nombre" msprop:Generator_ColumnPropNameInTable="Asignatura_nombreColumn" msprop:Generator_UserColumnName="Asignatura_nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Carrera" msprop:Generator_ColumnVarNameInTable="columnCarrera" msprop:Generator_ColumnPropNameInRow="Carrera" msprop:Generator_ColumnPropNameInTable="CarreraColumn" msprop:Generator_UserColumnName="Carrera" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Año" msprop:Generator_ColumnVarNameInTable="columnAño" msprop:Generator_ColumnPropNameInRow="Año" msprop:Generator_ColumnPropNameInTable="AñoColumn" msprop:Generator_UserColumnName="Año" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Semestre" msprop:Generator_ColumnVarNameInTable="columnSemestre" msprop:Generator_ColumnPropNameInRow="Semestre" msprop:Generator_ColumnPropNameInTable="SemestreColumn" msprop:Generator_UserColumnName="Semestre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Modalidad" msprop:Generator_ColumnVarNameInTable="columnModalidad" msprop:Generator_ColumnPropNameInRow="Modalidad" msprop:Generator_ColumnPropNameInTable="ModalidadColumn" msprop:Generator_UserColumnName="Modalidad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="horas" msprop:Generator_ColumnVarNameInTable="columnhoras" msprop:Generator_ColumnPropNameInRow="horas" msprop:Generator_ColumnPropNameInTable="horasColumn" msprop:Generator_UserColumnName="horas" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
